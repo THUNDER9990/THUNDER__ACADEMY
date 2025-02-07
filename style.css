@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Home-Page Code Start  */
+
+/* Navbar Codes Start */
+
+.navbar{
+    height: 60px;
+    background-color: #068FFF;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;       
+}
+
+.navbar-content{
+    text-decoration: none;  
+    color: white; 
+    padding-top: 15px; 
+}
+
+.login{
+    width: 65px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5%;
+    color: black;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.register{
+    width: 85px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5%;
+    color: black;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navbar-content:hover{
+    border: 2px solid red;
+}
+
+/* Navbar Codes End*/
+
+/* background-image code Start */
+
+.background-image{
+    height: auto;
+    width: 100%;
+    margin-top: 3px;
+}
+
+/* background-image code End */
+
+
+/* footer Code Start */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 1px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+    
+}
+
+/* footer Code End */
+
+/* Home-Page Code End  */
+
+
+/* AboutUS Code Start */
+
+pre{
+    margin-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Aboutus-Button{
+    background-color: lightblue;
+    font-style: italic;
+    font-size: 15px;
+    width: 90%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Aboutus-Button:hover{
+    background-color: lightcoral;
+}
+
+/* AboutUS Code End */
+
+
+/* ContactUs Code Start */
+#Contact-Us-Body{
+    background-color: #DAFFFB;
+}
+
+.Contact-Us{
+    text-align: center;
+    color: red;
+    margin-top: 15px;
+}
+.Content-of-Contact-Us{
+    text-align: center;
+}
+
+#Contact-Us-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* ContactUs page Code End */
